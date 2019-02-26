@@ -21,7 +21,7 @@ def first_challenge
   contacts["Freddy Mercury"].find do |value|
     value.delete_if do |flavor|
       flavor == "strawberry"
-  
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
