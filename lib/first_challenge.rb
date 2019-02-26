@@ -22,6 +22,7 @@ contacts.each do |person, data|
     icecream.delete do |flavor|
       flavor == "strawberry"
     end
+  end
     end
   end
 end
