@@ -21,7 +21,7 @@ contacts.each do |person, data|
       if icecream == :favorite_icecream_flavors
     icecream.delete do |flavor|
       flavor == "strawberry"
-    end
+    
   end
 end
 
