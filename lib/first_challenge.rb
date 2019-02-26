@@ -17,7 +17,8 @@ def first_challenge
 
 contacts.each do |person, data|
   data.each do |attribute, value|
-  #contacts["Freddy Mercury"].find do |value|
+    value.each do |icecream|
+      if icecream
     value.delete_if do |flavor|
       flavor == "strawberry"
     end
