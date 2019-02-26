@@ -21,6 +21,7 @@ contacts.each do |person, data|
   #contacts["Freddy Mercury"].find do |value|
     value.delete_if do |flavor|
       flavor == "strawberry"
+    end
   end
 end
 
