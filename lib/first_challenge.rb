@@ -15,10 +15,10 @@ def first_challenge
 
   #your code here
 
-#contacts.each do |person, data|
- # data.each do |attribute, value|
+contacts.each do |person, data|
+  data.each do |attribute, value|
   
-  contacts["Freddy Mercury"].find do |value|
+  #contacts["Freddy Mercury"].find do |value|
     value.delete_if do |flavor|
       flavor == "strawberry"
   end
