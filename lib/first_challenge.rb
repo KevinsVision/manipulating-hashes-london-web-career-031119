@@ -19,7 +19,8 @@ def first_challenge
  # data.each do |attribute, value|
   
   contacts["Freddy Mercury"].find do |value|
-    value.delete_if {key, 
+    value.delete_if do |flavor|
+      flavor 
   
 
   #remember to return your newly altered contacts hash!
